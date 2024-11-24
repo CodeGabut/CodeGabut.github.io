@@ -1,0 +1,313 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-image: url(Rename.png);
+    height: 2442px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.brand{
+    position: absolute;
+    left: 5%;
+    top:7%;
+    transform: scale(0.8);
+}
+
+.Favorite{
+    position: fixed;
+    right: 3%;
+    top: 6%;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+}
+
+body::-webkit-scrollbar {
+    display: none;}
+.list::-webkit-scrollbar {
+    display: none;}
+
+.header{
+  width: 99%;
+  height: 600px;
+  
+  position: absolute;
+  
+}
+.img{
+    position : absolute;
+}
+.huruf{
+    font-family: "Inter", sans-serif;
+    font-style: bold;
+    font-size: 64px;
+    color: white;
+    position: absolute;
+    bottom: 200px;
+    font-weight: bold;
+    left: 5%;
+    
+}
+.huruf2{
+    bottom: 150px;
+    font-family: "Inter", sans-serif;
+    font-style: bold;
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    font-weight: 200;
+   
+    left: 5%;
+
+}
+
+.bar{
+    width: 5px ; 
+    position: absolute;
+    left: 3%;
+ top: 160px;
+ height: 400px;
+ background-color: orange;
+}
+
+.isi{
+    display: flex;
+    
+    width: 99%;
+    height: 448px;
+    top: 140%;
+    position: absolute;
+    justify-content: center;
+}
+.isi2{
+    display: flex;
+    width: 100%;
+    
+    background-color: #140D04;
+    min-height: 448px;
+    top: 216%;
+    position: absolute;
+    justify-content: center;
+}
+
+.kontainer{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 448px;
+    font-family: "Inter", sans-serif;;    
+}
+
+.huruf3{
+    color: white;
+    font-family: "Inter", sans-serif;
+} 
+
+.bar2{
+    width: 200px;
+    height: 2px;
+    background-color: orange;
+}
+
+.inp{
+    background-color: #D9D9D9;
+    width: 300px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 20px;
+    width: 100%;
+    height: 341px;
+    
+}
+
+.kontainer2{
+    display: flex;
+    justify-content: center;
+    
+    width: 920px;
+    min-height: 448px;
+    border: orange 2px solid ; 
+    flex-wrap: wrap;
+    
+}
+
+.gambar{
+    width: 460px;
+    height: 450px;
+    align-self: center;
+}
+.bintang_hitam{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.information{
+    display: flex;
+    width: 460px;
+    min-height: 448px;
+    background-color: orange;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    gap: 10px;
+    
+}
+
+
+.menu{
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 20px;
+    width: 420px;
+    margin-top: 20px;
+}
+
+.asal{
+    margin-left: 20px;
+}
+
+.recipe{
+    margin-left: 20px;
+    
+}
+
+.bahan{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 90%;
+    height: fit-content;
+    flex-wrap: wrap;
+    
+    gap: 5px;
+    
+
+}
+
+.instruction{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 90%;
+    height: fit-content;
+    flex-wrap: wrap;
+    max-height: fit-content;
+    gap: 5px;
+    
+}
+
+.isi_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 4px;
+    min-width: 150px;
+    width:150px;
+    height: 80%;
+    background-color: orange;
+}
+
+.gambar_list{
+    height: 150px;
+    width: 150px;
+    
+}
+
+.resep{
+    font-size: 10px;
+    color: brown;
+    background-color: transparent;
+    border: none ;
+    width: 150px;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 12px;
+   
+}
+
+.menu_makanan{
+   font-weight: 700;
+}
+
+.cover{
+    width: 100%;
+    height: 110%;
+    background-color:#140D04;
+    position: absolute;
+    
+    top: 1800px;
+   
+}
+
+.content{
+    display: none;
+    flex-direction: column;
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 300px;
+    position: fixed;;
+    right: 20px;
+    top: 85px;
+    z-index: 11;
+}
+
+.list_favorite{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 100px;
+    background-color: orange;
+    
+}
+
+.gambar_makanan{
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+}
+
+.judul{
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 800;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.resep2{
+    
+    color: brown;
+    background-color: transparent;
+    border: none ;
+    width: auto;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 12px;
+   
+}
+
+.delete{
+    background-color: transparent;
+    color: #140D04;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
